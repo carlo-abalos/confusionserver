@@ -24,7 +24,7 @@ mongoose.connection.then((db) => {
 }, (err) => { console.log(err); });
 
 
-var app = express();dishRouter
+var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
