@@ -11,7 +11,7 @@ const commentSchema = new Schema({
 		require: true
 	},
 	comment: {
-		type: String,
+		type: String,	
 		require: true
 	},
 	author: {
